@@ -1,5 +1,11 @@
 extends layout
 
 block content
+    //h1= title
+    //p Welcome to #{title}
     h1= title
-    p Welcome to #{title}
+    div(id='div1')
+    div
+        text Add what todo item
+        input(id='todoitem')
+        button(id='todolist') Add
